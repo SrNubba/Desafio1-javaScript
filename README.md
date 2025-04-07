@@ -1,2 +1,2 @@
-# Desafio1 javaScript
- Desafio das Mensagens
+# Desafios javaScript
+ Desafios de JavaScript propostos por Gustavo guanabara
