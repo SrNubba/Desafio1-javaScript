@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4</title>
+</head>
+<body>
+    <h1>Calculando o troco</h1>
+    <button onclick="Comprar()">Comprar Produto</button>
+
+    <script>
+        function Comprar() {
+            let produto = prompt('Que produto você está comprando?')
+            let preco = Number(prompt(`Quanto custo ${produto} que você está comprando?`))
+            let din = Number(prompt(`Qual foi o valor que você deu para pagar ${produto}?`))
+            let troco = preco - din
+
+            alert(`Você comprou ${produto} que custou R$ ${preco} \nDeu R$ ${din} em dinhero e vai receber R$ ${troco} de troco. \nVolte sempre!`)
+            
+        }
+    </script>
+</body>
+</html>
